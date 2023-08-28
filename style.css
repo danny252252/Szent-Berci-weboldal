@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #383E42;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav-aligned-center a {
+    float: none; 
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.topnav-aligned-links img {
+    width: 70px;
+    height: 50px;
+}
+
+.topnav-aligned-right {
+    float: right;
+}
+
+.topnav-aligned-right img{
+    width: 25px;
+    height: 25px;
+}
