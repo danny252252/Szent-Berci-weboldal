@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0; 
+    font-family: 'Black Ops One', cursive;
 }
 
 .topnav {
@@ -14,27 +15,45 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .topnav-aligned-center a {
+}
+
+.topnav-aligned-center a {
     float: none; 
     position: absolute;
     color: black;
+    transform: translate(-50%, -50%);
+}
+
+.middle-left  {
+    top: 50%;
+    left: 30%;
+} 
+
+.middle-middle {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-  }
+}
 
-.topnav-aligned-links img {
-    width: 70px;
-    height: 50px;
+
+.middle-right {
+    top: 50%;
+    left: 70%; 
+}
+
+.topnav-aligned-links img  {
+    width: 170px;
+    height: 84px;
+}
+
+.topnav-aligned-links a {
+    padding: 0;
 }
 
 .topnav-aligned-right {
     float: right;
 }
 
-.topnav-aligned-right img{
+.topnav-aligned-right img {
     width: 25px;
     height: 25px;
 }
