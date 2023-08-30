@@ -70,5 +70,18 @@ body {
     left: 350px;
     opacity: 0.8;
     rotate: 10deg;
+    z-index: -1;
+}
 
+h1 {
+    width: 12em;
+    margin-left: 1em;
+    font-size: 2.9vw;
+}
+
+p {
+    width: 25em;
+    font-size: 1.3vw;
+    margin-top: 10em;
+    margin-left: 19em;
 }
