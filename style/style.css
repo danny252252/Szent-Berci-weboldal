@@ -25,6 +25,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.topnav-aligned-center a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+
 .middle-left {
     top: 50%;
     left: 30%;
@@ -46,6 +52,10 @@ body {
     height: 84px;
 }
 
+.topnav-aligned-links img:hover{
+    background-color: black;
+}
+
 .topnav-aligned-links a {
     padding: 0;
 }
@@ -61,10 +71,18 @@ body {
     margin-left: -45px;
 }
 
+.topnav-aligned-right img:hover{
+    background-color: white;
+    border-radius: 20%;
+    width: 27px;
+    height: 27px;
+    padding: 10px 26px;
+}
+
 .squar-bg {
     position: absolute;
-    width: 900px;
-    height: 580px;
+    width: 55vw;
+    height: 35vw;
     background-color: #21271D;
     top: 175px;
     left: 350px;
