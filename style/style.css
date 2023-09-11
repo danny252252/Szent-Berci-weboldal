@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0 auto;
     font-family: 'Black Ops One', cursive;
@@ -47,9 +49,9 @@ body {
     left: 70%;
 }
 
-.topnav-aligned-links img {
-    width: 170px;
-    height: 84px;
+.topnav-aligned-links{
+    width: 100%;
+    height: auto;
 }
 
 .topnav-aligned-links img:hover{
@@ -76,7 +78,7 @@ body {
     border-radius: 20%;
     width: 27px;
     height: 27px;
-    padding: 10px 26px;
+    padding: 10px 26px; 
 }
 
 .squar-bg {
@@ -84,8 +86,8 @@ body {
     width: 55vw;
     height: 35vw;
     background-color: #21271D;
-    top: 175px;
-    left: 350px;
+    top: 20%;
+    left: 20%;
     opacity: 0.8;
     rotate: 10deg;
     z-index: -1;
@@ -103,3 +105,41 @@ body {
     margin-top: 10em;
     margin-left: 19em;
 }
+
+.contact-header {
+    position: absolute;
+    left: 65%;
+    top: 30%;
+}
+
+.contact-header button{
+    background-color: #588157; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    cursor: pointer;
+    border-radius: 4%;
+}
+
+.contact-header button:hover {
+    background-color: #588157; /* Green */  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vw;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.contact-header h1 {
+    width: 12em;
+    font-size: 2.9vw;
+}
+
