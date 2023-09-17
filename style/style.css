@@ -143,3 +143,50 @@ body {
     font-size: 2.9vw;
 }
 
+.hamburger-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .topnav-aligned-center{
+        display: none;
+    }
+    .topnav-aligned-right{
+        display: none;
+    }
+    .topnav-aligned-links{
+        transform: translate(30%, 50%);        
+    }
+    .squar-bg {
+        position: absolute;
+        width: 130vw;
+        height: 80vw;
+        background-color: #21271D;
+        top: 30%;
+        left: -12%;
+        opacity: 0.8;
+        rotate: 80deg;
+        z-index: -1;
+    }
+
+    .index-header {
+        width: 12em;
+        margin-left: 5em;
+        margin-top: 6em;
+        font-size: 5vw;
+    }
+
+    .index-para {
+        width: 15em;
+        font-size: 4vw;
+        margin-top: 3em;
+        margin-left: 7em;
+    }
+    .contact-header {
+        position: absolute;
+        left: 65%;
+        top: 70%;
+    }
+
+
+  }
