@@ -9,11 +9,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <div class="mobile-topnav">
+      <a href="../html/index.html"
+          ><img
+          class="active"
+            src="../img/main logo.PNG"
+            alt="logo"
+
+        /></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="../html/index.html">Kezdő oldal</a>
+        <a href="../html/gallery.html">Galéria</a>
+        <a href="../html/about.html">Rólam</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
     <div class="topnav">
       <div class="topnav-aligned-links">
         <a href="../html/index.html"
@@ -26,7 +50,7 @@
       </div>
       <div class="topnav-aligned-center">
         <a class="middle-left" href="../html/index.html">Kezdő oldal</a>
-        <a class="middle-middle" href="../html/gallery.html">Galléria</a>
+        <a class="middle-middle" href="../html/gallery.html">Galéria</a>
         <a class="middle-right" href="../html/about.html">Rólam</a>
       </div>
       <div class="topnav-aligned-right">
@@ -36,6 +60,7 @@
         <a href=""><img src="../img/insta black.png" alt="insta logo" /></a>
       </div>
     </div>
+
     <h1 class="index-header">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
     </h1>
@@ -52,7 +77,6 @@
       <a href="tel:0123456789"><button>keres bátran!</button></a>
     </div>
     <div class="squar-bg"></div>
-
 
     <script src="../js/index.js"></script>
   </body>

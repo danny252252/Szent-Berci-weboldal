@@ -15,8 +15,27 @@
       href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <div class="mobile-topnav">
+      <a href="../html/index.html"
+        ><img class="active" src="../img/main logo.PNG" alt="logo"
+      /></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="../html/index.html">Kezdő oldal</a>
+        <a href="../html/gallery.html">Galéria</a>
+        <a href="../html/about.html">Rólam</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class="topnav">
       <div class="topnav-aligned-links">
         <a href="../html/index.html"
@@ -25,7 +44,7 @@
       </div>
       <div class="topnav-aligned-center">
         <a class="middle-left" href="../html/index.html">Kezdő oldal</a>
-        <a class="middle-middle" href="../html/gallery.html">Galléria</a>
+        <a class="middle-middle" href="../html/gallery.html">Galéria</a>
         <a class="middle-right" href="../html/about.html">Rólam</a>
       </div>
       <div class="topnav-aligned-right">
@@ -63,13 +82,11 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
           exercitationem eligendi ratione, pariatur ipsa iure totam non in nam
           eos debitis? Nemo, doloribus magnam. Ratione sit culpa veniam minima
-          inventore.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          exercitationem eligendi ratione, pariatur ipsa iure totam non in nam
-          eos debitis? Nemo, doloribus magnam. Ratione sit culpa veniam minima
-          inventore.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commod
-          exercitationem 
+          inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Commodi exercitationem eligendi ratione, pariatur ipsa iure totam non
+          in nam eos debitis? Nemo, doloribus magnam. Ratione sit culpa veniam
+          minima inventore. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Commod exercitationem
         </p>
       </div>
       <div class="div3">
@@ -85,6 +102,6 @@
 
     <div class="squar-bg"></div>
 
-    <script src="../js/about.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>

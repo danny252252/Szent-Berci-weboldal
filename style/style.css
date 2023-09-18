@@ -1,10 +1,9 @@
-
-
 body {
     margin: 0 auto;
     font-family: 'Black Ops One', cursive;
     background-color: #A7A7A7;
 }
+
 
 .topnav {
     position: relative;
@@ -49,12 +48,12 @@ body {
     left: 70%;
 }
 
-.topnav-aligned-links{
+.topnav-aligned-links {
     width: 100%;
     height: auto;
 }
 
-.topnav-aligned-links img:hover{
+.topnav-aligned-links img:hover {
     background-color: black;
 }
 
@@ -73,12 +72,12 @@ body {
     margin-left: -45px;
 }
 
-.topnav-aligned-right img:hover{
+.topnav-aligned-right img:hover {
     background-color: white;
     border-radius: 20%;
     width: 27px;
     height: 27px;
-    padding: 10px 26px; 
+    padding: 10px 26px;
 }
 
 .squar-bg {
@@ -112,8 +111,9 @@ body {
     top: 30%;
 }
 
-.contact-header button{
-    background-color: #588157; /* Green */
+.contact-header button {
+    background-color: #588157;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -126,7 +126,8 @@ body {
 }
 
 .contact-header button:hover {
-    background-color: #588157; /* Green */  
+    background-color: #588157;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -143,20 +144,49 @@ body {
     font-size: 2.9vw;
 }
 
-.hamburger-nav {
-    display: none;
-}
 
 @media only screen and (max-width: 600px) {
-    .topnav-aligned-center{
+
+    .mobile-topnav {
+        /* overflow: hidden; */
+        background-color: #383E42;
+        position: relative;
+        }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .mobile-topnav #myLinks {
         display: none;
     }
-    .topnav-aligned-right{
+
+    /* Style navigation menu links */
+    .mobile-topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .mobile-topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .active {
+        width: 32%;
+    }
+
+    .active a{
+        padding: 0;
+    }
+    .topnav {
         display: none;
     }
-    .topnav-aligned-links{
-        transform: translate(30%, 50%);        
-    }
+
     .squar-bg {
         position: absolute;
         width: 130vw;
@@ -182,11 +212,18 @@ body {
         margin-top: 3em;
         margin-left: 7em;
     }
+
     .contact-header {
         position: absolute;
         left: 65%;
-        top: 70%;
+        top: 80%;
     }
 
 
-  }
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile-topnav {
+        display: none;
+    }
+}
